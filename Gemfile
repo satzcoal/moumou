@@ -54,7 +54,7 @@ group :development do
   gem 'awesome_print' # michaeldv/awesome_print
   gem 'meta_request' # qqshfox/meta_request
   gem 'http_logger' # railsware/http_logger
-  gem 'pry-doc'
+  #gem 'pry-doc'
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem "capistrano", "~> 3.4"
   gem 'capistrano-rails', '~> 1.2.3'
