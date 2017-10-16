@@ -1,0 +1,6 @@
+"zh-CN":
+  active_admin:
+    filters:
+      predicates:
+        from: "从"
+        to: "到"

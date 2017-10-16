@@ -34,6 +34,7 @@ gem 'devise'
 gem 'cancancan' # or cancancan
 gem 'draper'
 gem 'pundit'
+gem 'rails-i18n', '~> 5.0.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -47,4 +48,16 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+
+  gem 'thin'
+  gem 'better_errors' # charliesome/better_errors
+  gem 'awesome_print' # michaeldv/awesome_print
+  gem 'meta_request' # qqshfox/meta_request
+  gem 'http_logger' # railsware/http_logger
+  gem 'pry-doc'
+  # Access an IRB console on exception pages or by using <%= console %> in views
+  gem "capistrano", "~> 3.4"
+  gem 'capistrano-rails', '~> 1.2.3'
+  gem 'capistrano-bundler', '~> 1.1.2'
+  gem 'capistrano-rvm'
 end
